@@ -32,7 +32,7 @@ hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NO
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold guifg=#e91e63 guibg=NONE gui=bold
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
 hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
-hi Number ctermfg=81 ctermbg=23 cterm=NONE guifg=#56c7ee guibg=#064253 gui=NONE
+hi Number ctermfg=81 cterm=NONE guifg=#56c7ee gui=NONE
 hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Function ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
