@@ -1,16 +1,13 @@
 # Hydrangea theme
 
-# Ama-cha edit
-
-The only difference to the original so far is removing the teal background to strings.
-
----
-
 This repository includes a color scheme file for Vim.
 
 ![Screenshot](https://raw.githubusercontent.com/yuttie/hydrangea-vim/gh-pages/screenshot.png)
 ![Screenshot for Rust](https://raw.githubusercontent.com/yuttie/hydrangea-vim/gh-pages/screenshot-rust.png)
 
+## Ama-cha edit
+
+The only difference to the original so far is removing the teal background to strings.
 
 ## Features
 
