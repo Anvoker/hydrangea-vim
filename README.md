@@ -1,5 +1,11 @@
 # Hydrangea theme
 
+# Ama-cha edit
+
+The only difference to the original so far is removing the teal background to strings.
+
+---
+
 This repository includes a color scheme file for Vim.
 
 ![Screenshot](https://raw.githubusercontent.com/yuttie/hydrangea-vim/gh-pages/screenshot.png)
@@ -19,22 +25,22 @@ This repository includes a color scheme file for Vim.
 
 ### For vim-plug users
 ```viml
-Plug 'yuttie/hydrangea-vim'
+Plug 'Anvoker/hydrangea-vim'
 ```
 
 ### For dein.vim users
 ```viml
-call dein#add('yuttie/hydrangea-vim')
+call dein#add('Anvoker/hydrangea-vim')
 ```
 
 ## Configuration
 
 ### lightline.vim
 [lightline.vim](https://github.com/itchyny/lightline.vim) support is included.
-To use the bundled colorscheme for lightline.vim, specify `'hydrangea'` in a definition of your lightline as follows:
+To use the bundled colorscheme for lightline.vim, specify `'hydrangea-ama-cha'` in a definition of your lightline as follows:
 ```viml
 let g:lightline = {
-      \ 'colorscheme': 'hydrangea',
+      \ 'colorscheme': 'hydrangea-ama-cha',
       \ 'component': {
       \   'readonly': '%{&readonly?"":""}',
       \ },
