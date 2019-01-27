@@ -34,10 +34,10 @@ call dein#add('Anvoker/hydrangea-vim')
 
 ### lightline.vim
 [lightline.vim](https://github.com/itchyny/lightline.vim) support is included.
-To use the bundled colorscheme for lightline.vim, specify `'hydrangea-ama-cha'` in a definition of your lightline as follows:
+To use the bundled colorscheme for lightline.vim, specify `'hydrangea'` in a definition of your lightline as follows:
 ```viml
 let g:lightline = {
-      \ 'colorscheme': 'hydrangea-ama-cha',
+      \ 'colorscheme': 'hydrangea',
       \ 'component': {
       \   'readonly': '%{&readonly?"":""}',
       \ },
