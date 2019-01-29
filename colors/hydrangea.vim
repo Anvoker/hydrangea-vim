@@ -13,8 +13,8 @@ let g:colors_name = 'hydrangea'
 set background=dark
 
 hi Normal ctermfg=252 ctermbg=235 guifg=#d3e7ff guibg=#1e222c
-hi Cursor ctermfg=NONE ctermbg=255 cterm=NONE guifg=NONE guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=NONE ctermbg=255 guifg=NONE guibg=#edf5ff
+hi Cursor ctermfg=NONE ctermbg=255 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
+hi CursorIM ctermfg=NONE ctermbg=255 guifg=NONE guibg=#ffffff
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=bold guifg=NONE guibg=#2a303b gui=bold
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
@@ -26,15 +26,15 @@ hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#d3e7ff guibg=#3b4351 gui
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
 hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#2a303b guibg=#2a303b gui=NONE
 hi LineNr ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
-hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
+hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#ffffff guibg=#586374 gui=bold
 hi SpecialKey ctermfg=23 ctermbg=38 cterm=bold guifg=#064253 guibg=#169ec4 gui=bold
 hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold guifg=#e91e63 guibg=NONE gui=bold
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
-hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
+hi Constant ctermfg=44 cterm=NONE guifg=#87ffff gui=NONE
 hi Number ctermfg=81 cterm=NONE guifg=#56c7ee gui=NONE
-hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
-hi Function ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
+hi Identifier ctermfg=255 cterm=bold guifg=#ffffff gui=bold
+hi Function ctermfg=255 cterm=bold guifg=#ffffff gui=bold
 hi Statement ctermfg=68 cterm=bold guifg=#5988e6 gui=bold
 hi Operator ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
 hi Include ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
@@ -51,7 +51,7 @@ hi Todo ctermfg=252 ctermbg=235 cterm=bold guifg=#d3e7ff guibg=#1e222c gui=bold
 hi IncSearch ctermfg=235 ctermbg=38 cterm=bold guifg=#1e222c guibg=#169ec4 gui=bold
 hi Search ctermfg=235 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=236 cterm=NONE guifg=#d3e7ff guibg=#2a303b gui=NONE
-hi PmenuSel ctermfg=255 ctermbg=238 cterm=bold guifg=#edf5ff guibg=#3b4351 gui=bold
+hi PmenuSel ctermfg=255 ctermbg=238 cterm=bold guifg=#ffffff guibg=#3b4351 gui=bold
 hi PmenuSbar ctermbg=236 cterm=NONE guibg=#2a303b gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=235 cterm=NONE guifg=#d3e7ff guibg=#1e222c gui=NONE
@@ -67,14 +67,14 @@ hi DiffDelete ctermfg=162 ctermbg=89 cterm=NONE guifg=#e242ac guibg=#68024b gui=
 hi DiffText ctermfg=218 ctermbg=89 cterm=bold guifg=#ffc3e4 guibg=#68024b gui=bold
 hi diffAdded ctermfg=38 ctermbg=23 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
 hi diffRemoved ctermfg=162 ctermbg=89 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
-hi Directory ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
+hi Directory ctermfg=44 cterm=NONE guifg=#87ffff gui=NONE
 hi ErrorMsg ctermfg=161 ctermbg=NONE cterm=NONE guifg=#e91e63 guibg=NONE gui=NONE
 hi SignColumn ctermfg=252 ctermbg=236 cterm=NONE guifg=#d3e7ff guibg=#2a303b gui=NONE
 hi MoreMsg ctermfg=68 cterm=NONE guifg=#5988e6 gui=NONE
 hi ModeMsg cterm=bold gui=bold
 hi Question cterm=NONE guifg=fg gui=NONE
 hi WarningMsg ctermfg=161 cterm=NONE guifg=#e91e63 gui=NONE
-hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
+hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#ffffff guibg=#586374 gui=bold
 hi ColorColumn ctermfg=NONE ctermbg=52 cterm=NONE guifg=NONE guibg=#681c36 gui=NONE
 hi GitGutterAdd ctermfg=38 ctermbg=236 cterm=bold guifg=#169ec4 guibg=#2a303b gui=bold
 hi GitGutterChange ctermfg=162 ctermbg=236 cterm=bold guifg=#e242ac guibg=#2a303b gui=bold
