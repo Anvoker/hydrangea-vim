@@ -21,7 +21,7 @@ except ImportError:
 
 
 # Palette
-base03       = ("#1e222c", 235)  # L* = 44
+base03       = ("#13151C", 234)  # L* = 44
 base02       = ("#2a303b", 236)  # L* = 50
 base01       = ("#3b4351", 238)  # L* = 58
 base00       = ("#586374", 241)  # L* = 68
